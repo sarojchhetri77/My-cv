@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.mainsection {
+    background-color: #6c8aa6;
+    width: 700px;
+    border-radius: 25px;
+    position: relative;
+}
+
+.main {
+    display: flex;
+    gap: 30px;
+ 
+}
+
+.main-left {
+    width: 30%;
+    background-color: #6c8aa6;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px;
+}
+
+.image {
+    width: 230px;
+    height: 200px;
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+
+    box-shadow: 6px 5px 10px #6c8aa6;
+}
+
+.null {
+    width: 100%;
+    height: 250px;
+}
+
+/* contact========= */
+.contact h3,
+.contact i {
+    color: white !important;
+}
+
+.contact {
+    border-bottom: 1px solid white;
+    padding-bottom: 13px;
+}
+
+.contact1 {
+
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.icon {
+    font-size: 20px;
+    /* text-align: center; */
+}
+
+.phone {
+    padding-left: 10px;
+    color: white;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.gmail {
+    color: white;
+    font-size: 15px;
+    padding-left: 13px;
+}
+
+.location {
+    padding-left: 15px;
+    color: white;
+    font-size: 15px;
+}
+
+.icons {
+    padding-left: 5px;
+    color: white;
+}
+
+.gmaildiv {
+    padding-left: 5px !important;
+}
+
+/* expertise */
+.expertise {
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 13px;
+}
+
+.expertise-head {
+    padding: 14px;
+    text-align: center;
+}
+
+.expertise-head h3,.language h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+ul li{
+    font-size: 15px;
+}
+.language h3{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.list1{
+    text-align: left;
+    color: white;
+}
+.list1 ul li{
+    padding: 5px;
+}
+.language{
+    border-bottom: 1px solid white;
+    padding-bottom: 13px;
+}
+.reference h3{
+     color: white;
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 25px;
+     padding: 10px;
+}
+.reference p{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+/* right div ---main-right------ */
+.main-right {
+    width: 70%;
+    background-color: #e9e9f0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.topname {
+    padding: 5rem 4rem 0rem 4rem;
+    line-height: 50px;
+    height: 250px;
+}
+
+.topname h2 {
+    text-align: left;
+    font-size: 50px;
+    color: #3b6d9c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.topname p {
+    text-align: left;
+    font-size: 20px;
+    color: #3b6d9c;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.right-same {
+    margin-left: 30px;
+    padding: 10px;
+    margin-top: 3.5px;
+}
+
+.about h3,
+.experience h3,
+.contact1 h3 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #3b6d9c;
+
+}
+
+.boxsame {
+    border-bottom: 1px solid #3b6d9c;
+    padding: 15px 0px;
+}
+
+.about p,
+.experience p {
+    padding-top: 7px;
+    font-size: 15px;
+    color: #52799e;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.experience h3 {
+    background-color: #8598aa;
+    color: white;
+    padding: 5px 5px 5px 15px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.table1 {
+    padding: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #3b6d9c;
+    border-collapse: collapse;
+    background-color: transparent;
+    color: #3b6d9c;
+    padding: 3px;
+    text-align: center;
+
+}
+
+th {
+    padding: 4px;
+    color: #697683;
+}
+
+td {
+    font-size: 15px;
+}
+
+tr:hover {
+    background-color: #b9ccdf;
+    color: white;
+    cursor: move;
+}
+
+.table1 tr a {
+    text-decoration: none;
+    color: #3b6d9c;
+}
